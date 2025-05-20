@@ -18,4 +18,4 @@ This is a responsive photo gallery website built using HTML and CSS. It is a tas
 
 
 ## Author
-[Sumaiya Ahmed](https://github.com/Sumaiyaa98)
+SANGISETTY SAICHARAN(https://github.com/saicharan2006)
