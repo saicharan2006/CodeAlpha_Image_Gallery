@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/feviconIG.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="main-div">
+      <h1 class="main-heading">IMAGE GALLERY</h1>
+
+      <nav > 
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="gallery-div">
+        <img
+          src="images/♔ Rose & Scintillant.jpeg"
+          alt="image"
+          onclick="openModal(this)"
+          loading="lazy"
+        />
+        <img
+          src="images/Bright and fun social media graphic FREE to use.jpeg"
+          alt="image"
+          onclick="openModal(this)"
+          loading="lazy"
+        />
+        <img
+          src="images/Bold & Colorful Quotes Canva Templates for Podcasts.jpeg"
+          alt="image"
+          onclick="openModal(this)"
+          loading="lazy"
+        />
+        <img
+          src="images/hey.jpeg"
+          alt="image"
+          onclick="openModal(this)"
+          loading="lazy"
+        />
+        <img
+          src="images/download (10).jpeg"
+          alt="image"
+          onclick="openModal(this)"
+          loading="lazy"
+        />
+        <img
+          src="images/imgg.jpeg"
+          alt="image"
+          onclick="openModal(this)"
+          loading="lazy"
+        />
+        <img
+          src="images/download (13).jpeg"
+          alt="image"
+          onclick="openModal(this)"
+          loading="lazy"
+        />
+        <img
+        src="images/download (18).jpeg"
+        alt="image"
+        onclick="openModal(this)"
+        loading="lazy"
+        />
+        <img
+          src="images/download (14).jpeg"
+          alt="image"
+          onclick="openModal(this)"
+          loading="lazy"
+        />
+        <img
+          src="images/download (11).jpeg"
+          alt="image"
+          onclick="openModal(this)"
+          loading="lazy"
+        />
+        <img
+          src="images/♔ Rose & Scintillant_.jpeg"
+          alt="image"
+          onclick="openModal(this)"
+          loading="lazy"
+        />
+        <img
+          src="images/download (19).jpeg"
+          alt="image"
+          onclick="openModal(this)"
+          loading="lazy"
+        />
+        <img
+          src="images/download (20).jpeg"
+          alt="image"
+          onclick="openModal(this)"
+          loading="lazy"
+        />
+        <img
+          src="images/KEEP MOVING GURL.jpeg"
+          alt="image"
+          onclick="openModal(this)"
+          loading="lazy"
+        />
+        <img
+          src="images/sketch art women.jpeg"
+          alt="image"
+          onclick="openModal(this)"
+          loading="lazy"
+        />
+        <img
+          src="images/september.jpeg"
+          alt="image"
+          onclick="openModal(this)"
+          loading="lazy"
+        />
+        <img
+          src="images/download (21).jpeg"
+          alt="image"
+          onclick="openModal(this)"
+          loading="lazy"
+        />
+        <img
+          src="images/𝕀𝕟𝕤𝕥𝕣𝕦𝕞𝕖𝕟𝕥𝕠𝕤 𝕄𝕦𝕤𝕚𝕔𝕒𝕝𝕖𝕤.jpeg"
+          alt="image"
+          onclick="openModal(this)"
+          loading="lazy"
+        />
+        <img
+          src="images/cocktail.jpeg"
+          alt="image"
+          onclick="openModal(this)"
+          loading="lazy"
+        />
+      </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="imageModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <button class="modal-button prev" onclick="prevImage()">
+        <ion-icon name="chevron-back-sharp"></ion-icon>
+      </button>
+      <img class="modal-content" id="modalImage" />
+      <button class="modal-button next" onclick="nextImage()">
+        <ion-icon name="chevron-forward-sharp"></ion-icon>
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
+</html>
